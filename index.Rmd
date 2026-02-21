@@ -1,0 +1,14 @@
+---
+title: "Prueba"
+subtitle: "Prueba"
+autor: "Melissa I. Ortiz Roman"
+date: "`r format(Sys.time(), '%Y-%b-%d, %I:%M %p')`"
+output:
+  prettydoc::html_pretty:
+    theme: cayman
+    highlight: github
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
